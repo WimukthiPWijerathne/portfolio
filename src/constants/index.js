@@ -1,7 +1,5 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/real.jpeg";
+import project2 from "../assets/projects/food.jpeg";
 
 export const HERO_CONTENT = `
 I am a third-year Electrical and Information Engineering undergraduate with a passion for both software and electronics. My experience as a software engineering intern has honed my skills in development and problem-solving. I am driven to contribute to projects that connect software and hardware, especially in automation, IoT, and embedded systems.`;
@@ -43,29 +41,23 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Real Estate Web App",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A dynamic real estate web application integrated with interactive maps, enabling users to buy and sell properties efficiently. Built using the MERN stack, it includes features like property listings, user authentication, and real-time map integration for a seamless experience.",
+    technologies: ["TailwindCSS", "Nextjs", "Node.js", "MongoDB"],
   },
+
   {
-    title: "Task Management App",
+    title: "Food Ordering App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: [ "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Real Estate Selling Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "This Project is for Online food ordering",
     technologies: [ "React", "Node.js", "MongoDB"],
   },
   
 ];
-
+export const EPROJECTS=[]
 export const CONTACT = {
   address: "Anuaradhapura, Sri Lanka",
   phoneNo: "0713834401",
