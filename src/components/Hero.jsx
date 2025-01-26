@@ -26,7 +26,7 @@ export default function Hero() {
               animate='vissible'
 
             className='pb-16 text-4xl font-thin tracking-tight lg:mt-16
-            lg:text-8xl'>Wimukthi Pathum</motion.h1>
+            lg:text-8xl  '>Wimukthi Pathum</motion.h1>
             <motion.span 
               variants={container(0.5)}
               initial='hidden'
