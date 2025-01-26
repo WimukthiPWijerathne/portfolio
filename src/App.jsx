@@ -10,6 +10,7 @@ import Projects from './components/Projects.jsx'
 import Qualifiactions from './components/Qualifiactions.jsx'
 import Technologies from './components/Technologies.jsx'
 import Eprojects from "./components/Eprojects.jsx";
+import Achievments from "./components/Achievments.jsx"
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Qualifiactions />
       <Technologies />
       <Education />
+      <Achievments/>
       <Projects />
       <Eprojects/>
       <Contact />
