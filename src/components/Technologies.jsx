@@ -32,11 +32,12 @@ export default function Technologies() {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
-        className='my-20 text-center text-4xl'
+        className='my-20 text-center text-4xl bg-gradient-to-r from-pink-300 via-slate-500
+            to-purple-500 bg-clip-text  tracking-tight text-transparent '
       >
         Technologies
       </motion.h2>
-      <h3 className='text-center text-2xl underline mb-10'>Web Development</h3>
+      <h3 className='text-center text-2xl  mb-10'>Web Development</h3>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
@@ -100,7 +101,8 @@ export default function Technologies() {
           <img src={springbbot} className='h-20 w-20' alt='Spring Boot' />
         </motion.div>
       </motion.div>
-      <h3 className='text-center text-2xl underline mb-10 mt-5'>Machine Learning and Data Science</h3>
+      <hr className="my-10 border-neutral-800" />
+      <h3 className='text-center text-2xl  mb-10 mt-5'>Machine Learning and Data Science</h3>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
@@ -121,7 +123,7 @@ export default function Technologies() {
           animate='animate'
           className='rounded-2xl border-4 border-neutral-800 p-4'
         >
-          <img src={numpy} className='h-20 w-28' alt='NumPy' />
+          <img src={numpy} className='h-20 w-26' alt='NumPy' />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
