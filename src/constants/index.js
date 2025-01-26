@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/real.jpeg";
 import project2 from "../assets/projects/food.jpeg";
-
+import eproject1 from "../assets/projects/e1.webp";
+import eproject2 from "../assets/projects/e2.jpeg";
 export const HERO_CONTENT = `
 I am a third-year Electrical and Information Engineering undergraduate with a passion for both software and electronics. My experience as a software engineering intern has honed my skills in development and problem-solving. I am driven to contribute to projects that connect software and hardware, especially in automation, IoT, and embedded systems.`;
 
@@ -57,7 +58,24 @@ export const PROJECTS = [
   },
   
 ];
-export const EPROJECTS=[]
+export const EPROJECTS=[
+
+  {
+    title: "Pulse With Modulator with variable Duty time and frequency",
+    image: eproject1,
+    description:
+      "This Project is implementing a single layer pcb.we designed pcb using Altium",
+    technologies: [ "Altium"],
+  },
+  {
+    title: "Filter with 12kHz cutoff Frequency",
+    image: eproject2,
+    description:
+      "This Project is implementing a single layer pcb.we designed pcb using Altium",
+    technologies: [ "Altium"],
+  },
+
+]
 export const CONTACT = {
   address: "Anuaradhapura, Sri Lanka",
   phoneNo: "0713834401",

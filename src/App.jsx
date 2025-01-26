@@ -9,6 +9,7 @@ import Navbar from './components/Navbar.jsx'
 import Projects from './components/Projects.jsx'
 import Qualifiactions from './components/Qualifiactions.jsx'
 import Technologies from './components/Technologies.jsx'
+import Eprojects from "./components/Eprojects.jsx";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Technologies />
       <Education />
       <Projects />
+      <Eprojects/>
       <Contact />
       </div>
     
