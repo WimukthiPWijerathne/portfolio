@@ -5,6 +5,7 @@ import eproject2 from "../assets/projects/e2.jpeg";
 import i1 from "../assets/archievements/i1.jpeg";
 import i3 from "../assets/projects/e3.webp";
 import i4 from "../assets/archievements/i4.jpeg";
+import i5 from "../assets/archievements/Capture.PNG";
 
 export const HERO_CONTENT = `
 I am a third-year Electrical and Information Engineering undergraduate with a passion for both software and electronics. My experience as a software engineering intern has honed my skills in development and problem-solving. I am driven to contribute to projects that connect software and hardware, especially in automation, IoT, and embedded systems.`;
@@ -99,6 +100,13 @@ export const ARCHIEVMENTS =[
     place: "Finalist",
     description:"Fast line following Robotic competition which is organized by ITUM.We built our robo using ESP32 microcontroller,CRV8833 motor controller and as the IR array we used QTR-8RC sensor.",
     image: i4
+
+  },
+  {
+    title: "MoraExtreme",
+    place: "Finalist",
+    description:"Competitive programming competition which is organized by faculty of engineering, University of Moratuwa.",
+    image: i5
 
   }
 ]
