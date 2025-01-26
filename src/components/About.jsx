@@ -18,7 +18,7 @@ export default function About() {
             initial={{opacity:0, x:-100}}
             transition={{duration:0.5}}
            className='flex items-center justify-center'>
-            <img className='rounded-2xl' src={aboutImage} alt="" />
+            <img className='rounded-2xl pb-2' src={aboutImage} alt="" />
           </motion.div>
 
         </div>
