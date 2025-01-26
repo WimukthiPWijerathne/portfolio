@@ -3,7 +3,7 @@ import project2 from "../assets/projects/food.jpeg";
 import eproject1 from "../assets/projects/e1.webp";
 import eproject2 from "../assets/projects/e2.jpeg";
 import i1 from "../assets/archievements/i1.jpeg";
-import i2 from "../assets/archievements/i2.jpeg";
+import i3 from "../assets/projects/e3.webp";
 import i4 from "../assets/archievements/i4.jpeg";
 
 export const HERO_CONTENT = `
@@ -63,6 +63,13 @@ export const PROJECTS = [
   
 ];
 export const EPROJECTS=[
+  {
+    title: "Transmission Line Fault Detection System",
+    image: i3,
+    description:
+      "We implemeted a transmission line fault detection system.for the microprocessor we use a ESP32 and as sensors we usedACS712,ZMPT101B and KY-001 sensors.we implemented the dashbooard using HTML and CSS.We got the real rime data and shown it in the dashboard using a web serever.If there is any fault it will shown in the dashboard.",
+    technologies: [ "C++", "HTML", "CSS"],
+  },
 
   {
     title: "Pulse With Modulator with variable Duty time and frequency",
@@ -78,6 +85,7 @@ export const EPROJECTS=[
       "This Project is implementing a single layer pcb.we designed pcb using Altium",
     technologies: [ "Altium"],
   },
+  
 
 ]
 export const CONTACT = {
