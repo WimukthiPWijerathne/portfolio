@@ -16,6 +16,23 @@ const container = (delay) => ({
 });
 
 export default function Hero() {
+  const handleDownload = () => {
+    // Create a link element
+    const link = document.createElement('a');
+    link.href = '/assets/cv/Wimukthi_Pathum_CV.pdf';
+    
+    // Set the download attribute with the desired filename
+    link.download = 'Wimukthi_Pathum_CV.pdf';
+    
+    // Set the correct MIME type
+    link.type = 'application/pdf';
+    
+    // Append to document, click, and remove
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -25,7 +42,7 @@ export default function Hero() {
               variants={container(0)}
               initial="hidden"
               animate="vissible"
-              className="pb-16 text-4xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-20 text-4xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
               Wimukthi Pathum
             </motion.h1>
@@ -60,20 +77,21 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      {/* Add the Download CV button */}
+      {/* Updated Download CV button with proper PDF handling */}
       <div className="flex justify-center mt-8">
         <motion.div
-        variants={container(0)}
-        initial="hidden"
-        animate="vissible"
+          variants={container(0)}
+          initial="hidden"
+          animate="vissible"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
           <Button
-            className='border-black text-black rounded-full hover:border-purple-500 hover:text-purple-500 cursor-pointer h-16 w-64 text-xl'
+            className="border-2 rounded-full border-black text-black transition-all duration-300 
+                     hover:border-purple-500 hover:text-purple-500 hover:bg-purple-50
+                     cursor-pointer h-16 w-64 text-xl font-light"
             variant="outlined"
-            href="/path-to-your-cv.pdf" // Replace with the actual file path
-            download="Wimukthi_Pathum_CV.pdf" // Set a custom filename
+            onClick={handleDownload}
           >
             Download CV
           </Button>
